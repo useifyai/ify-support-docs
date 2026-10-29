@@ -1,0 +1,10 @@
+{
+  "desiredContentHash": "dc87ac6c1e8bfd12e092d9e2ee20b1ec3f436ab423fd05c54ccdad2982f25a90",
+  "docsUrl": "https://ify.docs.buildwithfern.com",
+  "starter": {
+    "repoOwner": "fern-api",
+    "repoName": "docs-starter-internal",
+    "commitSha": "7a136fbd26e750f96d049759bc080129b23e7a5c",
+    "label": "2026-07-layouts-launch"
+  }
+}
