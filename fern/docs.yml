@@ -3,6 +3,16 @@
 instances:
   - url: ify.docs.buildwithfern.com
 title: ify | Documentation
+metadata:
+  og:site_name: "ify Documentation"
+  og:title: "ify | Documentation"
+  og:description: "ify is Resolution AI for support teams: an AI agent that resolves tickets end to end on top of Freshdesk, Zendesk, Salesforce, HubSpot or Intercom, billed per verified resolution."
+  og:url: "https://ify.docs.buildwithfern.com"
+  og:locale: "en_US"
+  og:dynamic: true
+  twitter:title: "ify Documentation"
+  twitter:description: "ify is Resolution AI for support teams: an AI agent that resolves tickets end to end on top of Freshdesk, Zendesk, Salesforce, HubSpot or Intercom, billed per verified resolution."
+  twitter:card: summary_large_image
 layout:
   searchbar-placement: header
   page-width: full
