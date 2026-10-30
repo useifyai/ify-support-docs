@@ -1,0 +1,37 @@
+---
+title: Getting started
+---
+
+> **DRAFT — Product review required.** Steps and details on this page have not yet been verified against the live product.
+
+## Preparation checklist
+
+Work through these five steps before going live with ify.
+
+### 1. Choose your helpdesk
+Confirm that your team uses one of the five supported platforms: Freshdesk, Zendesk, Salesforce, HubSpot (Service Hub) or Intercom. No helpdesk migration is required — ify runs on top of your existing setup.
+
+### 2. Gather your knowledge sources
+Identify the content ify will learn from. Supported sources include documentation, website content, release notes, video walkthroughs and past resolved tickets. ify can create missing SOPs from existing knowledge and re-syncs connected sources on a schedule.
+
+### 3. Identify an action to start with
+Decide which business action you want ify to perform first — for example, issuing a refund, extending a trial, creating a ticket or updating a CRM field. Confirm that the relevant connected app is available. ify connects to 200+ apps; billing integrations are separate from helpdesk integrations.
+
+### 4. Define human involvement by ticket type
+For each ticket type, decide which operating mode applies:
+- **Autonomous** — ify resolves the ticket without human approval. Use for well-defined, low-risk requests.
+- **Human-in-the-loop** — ify proposes an action and waits for agent approval before executing.
+- **AI Assist** — ify drafts a response or suggestion for the agent to review and send.
+
+Document your guardrail rules (what ify will and will not do) and handoff rules (when and how ify passes a ticket to a human agent, preserving context and the approval trail).
+
+### 5. Test with eligible and exception requests
+Before going live, run ify against a sample of tickets:
+- **Eligible requests** — tickets that match your defined ticket types and should be handled by ify. Confirm the response or action is correct.
+- **Exception requests** — tickets that fall outside the defined scope, contain edge cases or require escalation. Confirm that handoff fires correctly and that context and the approval trail reach the receiving agent.
+
+Start in AI Assist mode on a low-risk ticket type, review ify's suggestions, then graduate to Human-in-the-loop and finally Autonomous only after guardrails and handoff rules are confirmed.
+
+---
+
+[← Back to Welcome](/welcome)

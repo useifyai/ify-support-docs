@@ -1,0 +1,53 @@
+---
+title: Troubleshooting and handoff
+subtitle: Diagnostic checklists for common issues.
+slug: troubleshooting-and-handoff
+---
+
+> **DRAFT — Product review required.** Steps and details on this page have not yet been verified against the live product.
+
+Use these checklists to narrow down a problem before you escalate it. If a checklist doesn't resolve the issue, ask your ify admin to review the configuration.
+
+## Missing knowledge
+
+ify can't find an answer you expect it to know.
+
+- [ ] Is the knowledge source connected?
+- [ ] Has a sync run since the content was added or updated?
+- [ ] Is the content in a supported format?
+- [ ] Does an SOP exist for this type of request?
+
+If the issue persists, ask your admin to review your knowledge sources. See [Knowledge setup](/knowledge-setup).
+
+## Unavailable action
+
+ify doesn't perform, or doesn't propose, an action you expect.
+
+- [ ] Is the app the action depends on connected?
+- [ ] Does the action match a supported action category?
+- [ ] Are guardrails blocking the action for this ticket type?
+
+If the issue persists, ask your admin to review your connected apps and guardrails. See [Actions and approvals](/actions-and-approvals).
+
+## Permission errors
+
+ify can't access a connected app or complete an action because of access issues.
+
+- [ ] Does ify have the necessary access to the connected app?
+- [ ] Has the connection been re-authorised recently?
+
+If the issue persists, ask your admin to review ify's access to the connected app.
+
+## Handoff problems
+
+A ticket isn't handed off as expected, or the receiving agent is missing information.
+
+- [ ] Are handoff rules configured for this ticket type?
+- [ ] Is the conversation context being passed to the receiving agent?
+- [ ] Is the approval trail visible to the receiving agent?
+
+If the issue persists, ask your admin to review your handoff rules.
+
+---
+
+[Back to Welcome](/welcome)
